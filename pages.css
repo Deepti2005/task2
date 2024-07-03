@@ -1,0 +1,60 @@
+*{ margin: 0;
+   padding: 0;
+ }
+ body{
+    border: 2p;
+ }
+#top{
+font-size: 30px;
+padding: 20px 20px 20px 20px;
+ text-decoration: none;
+flex:50%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ #contact{
+   background-color: powderblue;
+   position: fixed;
+   padding:10px;
+   left: 0;
+   bottom: 0;
+   width: 100%;  
+}
+#contact div{
+   text-align: right;
+}
+  nav,nav ol{
+     background-color: grey;
+ font: size 20px;
+ display: flex;
+  flex-direction:row; 
+  }
+  nav h1{
+     text-shadow: 2px 2px white ;
+     
+  }
+  li{
+     list-style: none;
+     padding: 20px;
+  }
+  ol{
+     margin-left: 40%
+
+  }
+ nav  h1{
+ font-size: 40px; 
+padding: 20px;
+display: flex;
+  }
+nav ol li{
+font-size:x-large;
+}
+nav ol li:hover{
+font-weight: 600;
+text-shadow: 2px 2px cornsilk;
+}
+h3{
+text-align: center;
+font-size: 50px;
+ margin:300px; 
+text-shadow:2px 2px chartreuse ;
+}
